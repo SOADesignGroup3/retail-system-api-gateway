@@ -14,6 +14,7 @@ export interface CreateOrderResponse {
   status: number;
   error: string[];
   id: number;
+  message: string;
 }
 
 export const ORDER_PACKAGE_NAME = "order";
